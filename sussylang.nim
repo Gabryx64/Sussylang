@@ -107,7 +107,7 @@ proc sussy_parser(line: string): void =
         let ch: char = stdin.readChar()
         stack.add((int)ch)
     elif(line == "emergencymeeting"):
-        i = -1
+        i = -2
     else:
         echo(sample(error_msgs), " \"", line, "\":", i)
         randomize()
